@@ -1,0 +1,227 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+}
+h1 {
+    font-size: 5rem;
+    color: black;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Nagłówek */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: -10px;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    top: -15px;
+    color: gray;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 30%;
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.service-item:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: auto;
+    position: relative; /* Dodano, aby kontrolować pozycjonowanie */
+    border-top: 5px solid #007bff; /* Dodałem obramowanie górne */
+}
+
+footer p {
+    margin: 0; /* Usunięto domyślne marginesy */
+}
+
+footer button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+
+#about {
+    background-image: url('https://media.licdn.com/dms/image/D5612AQFY10-1AsejsA/article-cover_image-shrink_720_1280/0/1689796287258?e=2147483647&v=beta&t=4JX8w0Rklbf1OxLaqaTaox4gMg2CGl5eUMg4WBY4L2U');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+}
+
+
+#about p, #about ul {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 1rem;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    width: 80%;
+}
+
+#about ul {
+    list-style-type: none;
+}
+
+#about li{
+    margin-bottom: 4px;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 3rem;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #007bff;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.style-button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.style-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px){
+    .service-item {
+        width: 100%;
+    }
+
+
+}

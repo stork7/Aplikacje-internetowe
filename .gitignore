@@ -1,2 +1,27 @@
+# Klucze SSH
+*.pem
+*.pub
+*.key
+
+# Pliki konfiguracyjne (np. API keys, hasła)
+.env
+.env.local
+.env.*.local
+
+# Pliki tymczasowe i generowane przez edytory
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Logi
+*.log
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Podstawowe pliki IDE (np. VS Code, IntelliJ)
+.vscode/
 .idea/
 *.iml

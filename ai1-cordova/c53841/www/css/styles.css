@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    color: #004d40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #004d40;
+    border-radius: 4px;
+}
+
+button {
+    background: #004d40;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00695c;
+}
+
+#currentWeather, #forecast {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.forecast-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: #00695c 2px solid;
+    border-radius: 10px;
+}
+
+.forecast-item img {
+    margin-right: 10px;
+}
